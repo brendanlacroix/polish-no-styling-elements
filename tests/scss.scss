@@ -1,0 +1,31 @@
+/* should fail */
+div {
+  color: red;
+}
+.great-class {
+  a {
+    color: red;
+  }
+}
+.cool div {
+  color: red;
+}
+div,
+.class {
+  color: red;
+}
+
+/* should pass */
+.cool-really-good-selector {
+  color: green;
+
+  .div {
+    color: green;
+  }
+}
+.a {
+  color: green;
+}
+#div {
+  color: red;
+}

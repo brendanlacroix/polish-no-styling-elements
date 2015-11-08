@@ -1,0 +1,22 @@
+/* should fail */
+div {
+  color: red;
+}
+.cool div {
+  color: red;
+}
+div,
+.class {
+  color: red;
+}
+
+/* should pass */
+.thead {
+  color: green;
+}
+.a {
+  color: green;
+}
+#div {
+  color: red;
+}
